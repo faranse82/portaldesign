@@ -1,0 +1,341 @@
+/* 
+  Name: Faran Sepehrisadr
+  Student Id: 47393416
+  
+  You may change anything you like in this file 
+*/
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  background-image: url("https://images6.alphacoders.com/116/1164605.png");
+  background-size:contain;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  width: 100%; 
+  background-image: url("https://images6.alphacoders.com/116/1164605.png");
+  background-size:cover;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+main {
+  background-color: rgba(255, 133, 19, 0.466);
+  margin: auto;
+  width: 70%;
+  list-style: none;
+  opacity: 1;
+  border: orange;
+  border-style: solid;
+  border-radius: 2px;
+  height: 95%;
+  color: aliceblue;
+  overflow: hidden;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+main #blogpost-2  {
+  background-image: url("https://images6.alphacoders.com/116/1164605.png");
+  background-size:cover;
+  background-blend-mode: color-burn;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+a {
+  color: orange;
+}
+
+h1{
+  color: aliceblue;
+  font-size: 2em;
+  position: relative;
+  top: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+title {
+  text-align: center;
+}
+
+.page-header-main {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 200px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.header-search form {
+  width: 600px;
+  height: 40px;
+  display: grid;
+  position: relative;
+  top: 50px;
+  grid-template-columns: 0% 80% 20%;
+}
+
+.widget{
+  flex: 1;
+  justify-items: center;
+  background-color: rgb(59, 59, 59);
+  color: aliceblue;
+  text-align: center;
+  display: table;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.widget img {
+  padding-top: 2%;
+  position: relative;
+}
+
+#task-widget {
+  text-align: justify;
+}
+
+#task-widget dl{
+  margin-left: 20%;
+}
+
+#task-widget h2{
+  margin-left: 28%;
+}
+
+
+#login input{
+  width: 50%;
+  border: red;
+  border: 5px;
+}
+
+#submitbutton input {
+  width: 100%;
+  position: relative;
+  left: -10px;
+  margin-left: 10px;
+  background-color: rgb(250, 203, 114);
+  color: rgb(33, 34, 34);
+  height: 30px;
+  border-radius: 5px;
+}
+
+#login li {
+  display: inline-block;
+  position: relative;
+  left: -70px;
+  font-size: larger;
+}
+
+#login input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#register a {
+  position: relative;
+  left: 170px;
+  color: orange;
+}
+
+#register {
+  line-height: 16px;
+  height: 60px;
+  position: relative;
+  margin: auto;
+  z-index: 100;
+}
+
+.main-menu{
+  display: inline-grid;
+  grid-template-columns:5% 5% 5% 185%;
+  margin-left: 10px;
+  width: 100%;
+  float: right;
+  text-align: left;
+  font-size: larger;
+  margin-top: auto;
+}
+
+.main-menu li {
+  margin-left: 13px;
+  position: relative;
+  vertical-align: middle;
+  line-height: 90px;
+  top: -238px;
+  color: aliceblue;
+  z-index: 1000;
+  height: 100px;
+  text-align: center;
+  font: bold;
+}
+
+.search-input-field {
+  background-color: #373737;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.search-input-field:focus {
+  outline: none;
+}
+
+.search-button {
+  background-color: orange;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 5px;
+  padding: 8px 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.blogpost h2{
+  padding: 1%;
+}
+
+.blogpost h3{
+  margin-left: 2%;
+}
+
+.blogpost p{
+  margin: 2%;
+  font-size: larger;
+  padding-bottom: 1%;
+}
+
+.blogpost {
+  text-align: justify;
+}
+
+.blogpost ul {
+  width:85%;
+}
+
+.header-search {
+  display: inline;
+  margin: auto;
+  position: relative;
+  top: -70px;
+}
+
+#register {
+  position: relative;
+  top: -38px;
+  left: -180px;
+}
+
+
+
+li.maxtemp {
+  list-style-type: "-";
+  text-indent: 65%;
+  margin-left: 1%;
+}
+
+li.currentpage {
+  text-align: center;
+}
+
+li.outlook {
+  display: flow-root;
+  clear: both;
+}
+
+li.mintemp {
+  text-indent: 10%;
+  padding-left: 35%;
+  padding-right: 7%;
+}
+
+li.mintemp, li.maxtemp  {
+  float: left;
+}
+
+.currentpage {
+  text-align: right;
+}
+
+.pagelink{
+  text-align: center;
+}
+
+.header-auth {
+  width: 100%;
+  background-color: #383737;
+  position: relative;
+  top: -110px ;
+  height: 28%;
+  text-align: right;
+  color: aliceblue;
+}
+
+.main-menu{
+  display: inline-grid;
+  grid-template-columns:5% 5% 5%;
+  margin-left: 10px;
+  width: 100%;
+  float: right;
+  text-align: left;
+  margin-top: auto;
+}
+
+.main-menu li {
+  margin-left: 13px;
+  position: relative;
+  vertical-align: middle;
+  line-height: 50px;
+  top: -238px;
+  color: aliceblue;
+  z-index: 1000;
+  height: 55px;
+  text-align: center;
+  font: bold;
+}
+
+.pagelink:link {
+  text-decoration: none;  
+}
+
+.main-menu :hover {
+  line-height: 50px;
+  top: -238px;
+  z-index: 1000;
+  height: 55px;
+  text-align: center;
+  color:aliceblue;
+  background-color: orange;
+}
+
+footer {
+  background-color: rgb(40, 40, 40);
+  text-align: center;
+  color: aliceblue;
+  font-size: large;
+}
